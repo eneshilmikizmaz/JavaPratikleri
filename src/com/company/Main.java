@@ -44,9 +44,20 @@ public class Main {
         System.out.println(ucgen.alanHesapla());
          */
 
+        //TaksiMetre
+        /*
         TaksiMetre taksi = new TaksiMetre();
         System.out.println("Kaç Km yolculuk yapıldığını giriniz (,)= ");
         System.out.println(taksi.calcFee(scanner.nextDouble()));
+        */
 
+        //Daire Alan, Çevre ve Daire Dilimi Hesabı
+        CalcCircle circle = new CalcCircle();
+        System.out.println("Dairenin yarı çapını giriniz = ");
+        circle.setR(scanner.nextInt());
+        System.out.println("Dairenin Alanı :" + circle.calcArea());
+        System.out.println("Dairenin Çevresi :" + circle.calcPerimeter());
+        System.out.println("Daire diliminin açısını giriniz :");
+        System.out.println("Daire diliminin alanı: " + circle.calcCircleSlice(scanner.nextInt()));
     }
 }
