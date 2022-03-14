@@ -62,13 +62,27 @@ public class Main {
         System.out.println("Daire diliminin alanı: " + circle.calcCircleSlice(scanner.nextInt()));
     */
         //Vücut Kitle indeksi
+        /*
         VucutKitleIndeksi insan = new VucutKitleIndeksi();
         System.out.print("Lütfen boyunuzu (metre cinsinde) giriniz :");
         insan.setBoy(scanner.nextDouble());
         System.out.print("Lütfen kilonuzu giriniz :");
         insan.setKilo(scanner.nextDouble());
         System.out.println("Vücut Kitle İndeksiniz :"+ insan.calcIndex());
+        */
 
+        ManavKasaProg manav = new ManavKasaProg();
+        System.out.print("Armut Kaç Kilo ? :");
+        manav.setArmutKg(scanner.nextInt());
+        System.out.print("Elma Kaç Kilo ? :");
+        manav.setElmaKg(scanner.nextInt());
+        System.out.print("Domates Kaç Kilo ? :");
+        manav.setDomatesKg(scanner.nextInt());
+        System.out.print("Muz Kaç Kilo ? :");
+        manav.setMuzKg(scanner.nextInt());
+        System.out.print("Patlıcan Kaç Kilo ? :");
+        manav.setPatlıcanKg(scanner.nextInt());
+        System.out.println("Toplam Tutar : " + manav.calcFee());
     }
 
 }
