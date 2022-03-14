@@ -21,6 +21,7 @@ public class Main {
         System.out.println("Müzik Notunu Giriniz    :");
         pratik1.setMusic(scanner.nextInt());
         System.out.println(pratik1.ortHesapla());
+        scanner.close();
         */
 
 
@@ -29,6 +30,7 @@ public class Main {
         KdvHesaplama hesap = new KdvHesaplama();
         System.out.println("Tutarı giriniz:");
         System.out.println("KDV Tutarı :"+hesap.kdvTutar(scanner.nextDouble()));
+        scanner.close();
         */
 
         //Ucgen Alan Hesaplama
@@ -42,6 +44,7 @@ public class Main {
         ucgen.setC(scanner.nextInt());
         System.out.print("Üçgenin alanı = ");
         System.out.println(ucgen.alanHesapla());
+        scanner.close();
          */
 
         //TaksiMetre
@@ -49,6 +52,7 @@ public class Main {
         TaksiMetre taksi = new TaksiMetre();
         System.out.println("Kaç Km yolculuk yapıldığını giriniz (,)= ");
         System.out.println(taksi.calcFee(scanner.nextDouble()));
+        scanner.close();
         */
 
         //Daire Alan, Çevre ve Daire Dilimi Hesabı
@@ -60,6 +64,7 @@ public class Main {
         System.out.println("Dairenin Çevresi :" + circle.calcPerimeter());
         System.out.println("Daire diliminin açısını giriniz :");
         System.out.println("Daire diliminin alanı: " + circle.calcCircleSlice(scanner.nextInt()));
+        scanner.close();
     */
         //Vücut Kitle indeksi
         /*
@@ -69,6 +74,7 @@ public class Main {
         System.out.print("Lütfen kilonuzu giriniz :");
         insan.setKilo(scanner.nextDouble());
         System.out.println("Vücut Kitle İndeksiniz :"+ insan.calcIndex());
+        scanner.close();
         */
 
         ManavKasaProg manav = new ManavKasaProg();
@@ -83,6 +89,7 @@ public class Main {
         System.out.print("Patlıcan Kaç Kilo ? :");
         manav.setPatlıcanKg(scanner.nextInt());
         System.out.println("Toplam Tutar : " + manav.calcFee());
+        scanner.close();
     }
 
 }
