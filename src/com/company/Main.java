@@ -52,6 +52,7 @@ public class Main {
         */
 
         //Daire Alan, Çevre ve Daire Dilimi Hesabı
+        /*
         CalcCircle circle = new CalcCircle();
         System.out.println("Dairenin yarı çapını giriniz = ");
         circle.setR(scanner.nextInt());
@@ -59,5 +60,15 @@ public class Main {
         System.out.println("Dairenin Çevresi :" + circle.calcPerimeter());
         System.out.println("Daire diliminin açısını giriniz :");
         System.out.println("Daire diliminin alanı: " + circle.calcCircleSlice(scanner.nextInt()));
+    */
+        //Vücut Kitle indeksi
+        VucutKitleIndeksi insan = new VucutKitleIndeksi();
+        System.out.print("Lütfen boyunuzu (metre cinsinde) giriniz :");
+        insan.setBoy(scanner.nextDouble());
+        System.out.print("Lütfen kilonuzu giriniz :");
+        insan.setKilo(scanner.nextDouble());
+        System.out.println("Vücut Kitle İndeksiniz :"+ insan.calcIndex());
+
     }
+
 }
