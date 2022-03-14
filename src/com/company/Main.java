@@ -25,10 +25,22 @@ public class Main {
 
 
         //KDV Hesaplama Pratiği,
-
+        /*
         KdvHesaplama hesap = new KdvHesaplama();
         System.out.println("Tutarı giriniz:");
         System.out.println("KDV Tutarı :"+hesap.kdvTutar(scanner.nextDouble()));
+        */
 
+        //Ucgen Alan Hesaplama
+
+        UcgenAlani ucgen = new UcgenAlani();
+        System.out.println("1. Kenar :");
+        ucgen.setA(scanner.nextInt());
+        System.out.println("2. Kenar :");
+        ucgen.setB(scanner.nextInt());
+        System.out.println("3. Kenar :");
+        ucgen.setC(scanner.nextInt());
+        System.out.print("Üçgenin alanı = ");
+        System.out.println(ucgen.alanHesapla());
     }
 }
