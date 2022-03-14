@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+        // write your code here
         Scanner scanner = new Scanner(System.in);
         //Not Ortalaması Pratiği
         /*
@@ -32,7 +32,7 @@ public class Main {
         */
 
         //Ucgen Alan Hesaplama
-
+        /*
         UcgenAlani ucgen = new UcgenAlani();
         System.out.println("1. Kenar :");
         ucgen.setA(scanner.nextInt());
@@ -42,5 +42,11 @@ public class Main {
         ucgen.setC(scanner.nextInt());
         System.out.print("Üçgenin alanı = ");
         System.out.println(ucgen.alanHesapla());
+         */
+
+        TaksiMetre taksi = new TaksiMetre();
+        System.out.println("Kaç Km yolculuk yapıldığını giriniz (,)= ");
+        System.out.println(taksi.calcFee(scanner.nextDouble()));
+
     }
 }
