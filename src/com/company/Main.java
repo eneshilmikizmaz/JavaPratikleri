@@ -95,6 +95,7 @@ public class Main {
         scanner.close();
         */
         //Hesap Makinesi
+        /*
         HesapMakinesi hesapMakinesi= new HesapMakinesi();
         System.out.print("1.Sayı=");
         hesapMakinesi.setA(scanner.nextInt());
@@ -103,10 +104,18 @@ public class Main {
         System.out.println("\n1-Toplama\n2-Çıkarma\n3-Çarpma\n4-Bölme\n5-Çıkış\n\nLütfen seçiminizi yapınız:");
         hesapMakinesi.setSecim(scanner.nextInt());
         hesapMakinesi.hesapMakinesi();
+        */
+
+        //Login
+        Login user = new Login();
+        System.out.println("Lütfen Kullanıcı Bilgilerinizi giriniz.");
+        System.out.print("Kullanıcı adı : ");
+        String userName = scanner.nextLine();
+        System.out.print("Şifreniz :");
+        String password = scanner.nextLine();
+        user.passwordCheck(password, userName);
 
 
-
-        
     }
 
 }
