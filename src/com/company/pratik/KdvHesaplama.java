@@ -1,4 +1,4 @@
-package com.company;
+package com.company.pratik;
 
 public class KdvHesaplama {
     private final double KDV18 = 0.18;

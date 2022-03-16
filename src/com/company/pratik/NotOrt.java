@@ -1,4 +1,4 @@
-package com.company;
+package com.company.pratik;
 
 public class NotOrt {
     private int math, psyh, chmy, turk, music;

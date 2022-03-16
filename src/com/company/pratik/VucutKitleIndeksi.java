@@ -1,4 +1,4 @@
-package com.company;
+package com.company.pratik;
 
 public class VucutKitleIndeksi {
     public double kilo;

@@ -1,5 +1,7 @@
 package com.company;
 
+import com.company.pratik.*;
+
 import java.util.Scanner;
 
 public class Main {
@@ -76,7 +78,8 @@ public class Main {
         System.out.println("Vücut Kitle İndeksiniz :"+ insan.calcIndex());
         scanner.close();
         */
-
+        //Manav Prog
+        /*
         ManavKasaProg manav = new ManavKasaProg();
         System.out.print("Armut Kaç Kilo ? :");
         manav.setArmutKg(scanner.nextInt());
@@ -90,6 +93,20 @@ public class Main {
         manav.setPatlıcanKg(scanner.nextInt());
         System.out.println("Toplam Tutar : " + manav.calcFee());
         scanner.close();
+        */
+        //Hesap Makinesi
+        HesapMakinesi hesapMakinesi= new HesapMakinesi();
+        System.out.print("1.Sayı=");
+        hesapMakinesi.setA(scanner.nextInt());
+        System.out.print("2.sayı=");
+        hesapMakinesi.setB(scanner.nextInt());
+        System.out.println("\n1-Toplama\n2-Çıkarma\n3-Çarpma\n4-Bölme\n5-Çıkış\n\nLütfen seçiminizi yapınız:");
+        hesapMakinesi.setSecim(scanner.nextInt());
+        hesapMakinesi.hesapMakinesi();
+
+
+
+        
     }
 
 }

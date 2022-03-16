@@ -1,4 +1,4 @@
-package com.company;
+package com.company.pratik;
 
 public class CalcCircle {
     private final double PI = 3.14;

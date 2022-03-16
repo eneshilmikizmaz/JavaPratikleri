@@ -1,4 +1,4 @@
-package com.company;
+package com.company.pratik;
 
 public class TaksiMetre {
     private final double PERKM = 2.20;

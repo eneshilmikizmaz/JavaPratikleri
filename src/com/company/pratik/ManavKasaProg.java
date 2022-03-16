@@ -1,4 +1,4 @@
-package com.company;
+package com.company.pratik;
 
 public class ManavKasaProg {
     private final double ARMUTPRI = 2.14;
